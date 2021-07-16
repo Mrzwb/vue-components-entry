@@ -1,0 +1,47 @@
+{
+  "name": "vue-components-entry",
+  "version": "1.0.7",
+  "description": "generate components entry for vue project",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "release": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.10.1",
+    "@babel/plugin-syntax-jsx": "^7.10.1",
+    "@babel/plugin-transform-object-assign": "^7.10.1",
+    "@babel/plugin-transform-runtime": "^7.10.1",
+    "@babel/preset-env": "^7.10.1",
+    "@babel/preset-typescript": "^7.10.1",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-import": "^1.13.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "cache-loader": "^4.1.0",
+    "eslint": "^6.7.2",
+    "typescript": "~4.1.5",
+    "webpack": "^4.0.0",
+    "webpack-bundle-analyzer": "^3.8.0",
+    "webpack-chain": "^6.4.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "keywords": [
+    "vue components"
+  ],
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "author": "zhouwb",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mrzwb/vue-components-entry"
+  }
+}
